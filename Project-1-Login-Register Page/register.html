@@ -1,0 +1,215 @@
+<!----------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------Created by github.com/Deagleci------------------------
+-----------------------------All Rights Reserved------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Register Page </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+
+	<div class="container">
+		<div class="card">
+			<form id="register-form">
+                <h1>Register</h1>
+                <input type="text" placeholder="Name" id="name" required>
+				<input type="text" placeholder="Surname" id="surname" required>
+				<input type="text" placeholder="example@mail.com" id="email" required>
+				<input type="password" placeholder="Create Password" id="password" required>
+				<input type="password" placeholder="Confirm Password" id="confirm-password" required>
+				<input type="submit" value="Register">
+			</form>
+			<div class="error" id="error-message"></div>
+		</div>
+	</div>
+    <style>    
+
+     body{
+		background-color: rgba(68,70,84);
+		font-family: Arial, sans-serif;
+    }
+
+	footer {
+    margin-top: -4rem;
+    margin-left: 450px;
+    color: gold;
+    font-size: 1.2em;
+	}
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .card{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        color: #2B2D42;
+        opacity: 1;
+    }
+
+
+    .h1{
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    input[type="text"], input[type="password"] {
+	    padding: 10px;
+	    width: 100%;
+	    border-radius: 5px;
+	    border: none;
+	    margin-bottom: 20px;
+	    font-size: 16px;
+	    color: #2B2D42;
+	    background-color: #F8F8F8;
+    }
+
+    input[type="submit"] {
+	    background-color: #EF233C;
+	    color: #FFF;
+	    border: none;
+	    padding: 10px;
+	    border-radius: 5px;
+	    cursor: pointer;
+	    font-size: 16px;
+	    margin-top: 20px;
+	    transition: background-color 0.2s ease;
+    }
+
+    input[type="submit"]:hover {
+	    background-color: #C21828;
+    }
+
+    .error {
+	    background-color: #FFCDD2;
+	    color: #C21828;
+	    padding: 10px;
+	    border-radius: 5px;
+	    margin-top: 20px;
+	    display: none;
+    }
+
+	@media (max-width: 991px) {
+    body {
+    background-color: rgba(68,70,84);
+	font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+footer {
+    margin-top: -56rem;
+    margin-left: 110px;
+    color: gold;
+    font-size: 2.2em;
+}
+
+.card {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 33px;
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+	color: #2B2D42;
+    opacity: 1;
+    zoom: 2;
+    margin-top: -355px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #2B2D42;
+	background-color: #F8F8F8;
+}
+
+input[type="submit"] {
+	background-color: #EF233C;
+	color: #FFF;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+	transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #C21828;
+}
+
+.error {
+	background-color: #FFCDD2;
+	color: #C21828;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: none;
+}
+}
+    </style>
+<script>
+	var message = 
+"------------------------------------------------------------------------------\n" +
+"------------------------------------------------------------------------------\n" +
+"------------------------------------------------------------------------------\n" +
+"------------------------Created by github.com/Deagleci------------------------\n" +
+"-----------------------------All Rights Reserved------------------------------\n" +
+"------------------------------------------------------------------------------\n" +
+"------------------------------------------------------------------------------\n" +
+"------------------------------------------------------------------------------\n";
+
+// Konsola mesajı yazdırma
+console.log(message);
+</script>
+        <footer>
+			<p class="github.com/Deagleci">© 2022 - 2023 Deagleci. All Rights Reserverd.</p>
+        </footer>
+    <script src="javascript/register.js"></script>
+</body>
+</html>
+<!----------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------Created by github.com/Deagleci------------------------
+-----------------------------All Rights Reserved------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+-->
